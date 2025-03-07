@@ -35,6 +35,11 @@ public class Calculadora {
         return Math.pow(base, exponente);
     }
 
+    public static double media(double num1, double num2) {
+        return (num1 + num2) / 2;
+    }
+    
+
     public static int calcular(int a, int b, int operacion) {
         switch (operacion) {
             case 1:
