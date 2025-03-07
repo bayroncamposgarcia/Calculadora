@@ -22,6 +22,19 @@ public class Calculadora {
         }
     }
 
+    public class Calculadora {
+    public static void main(String[] args) {
+        System.out.println("Calculadora en Java");
+    }
+
+    public static double potencia(double base, double exponente) {
+        return Math.pow(base, exponente);
+    }
+}
+    public static double potencia(double base, double exponente) {
+        return Math.pow(base, exponente);
+    }
+
     public static int calcular(int a, int b, int operacion) {
         switch (operacion) {
             case 1:
